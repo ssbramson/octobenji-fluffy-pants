@@ -1,5 +1,19 @@
-h1 {
-  color: darkblue;
-}
+html,
+*::before,
+*::after {
+  box-sizing: border-box; }
 
-/* html {} */
+*:not(input) {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 16px;
+  -ms-text-size-adjust: 100%;
+  /* 3 */
+  -webkit-text-size-adjust: 100%;
+  /* 3 */ }
+
+body {
+  font-size: 1rem; }
