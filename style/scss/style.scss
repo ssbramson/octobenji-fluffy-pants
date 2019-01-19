@@ -4,9 +4,10 @@
 @import
   '0variables/variables';
 
-// 1. Consistency Base
+// 1. Consistency
 @import
-  '1consistency/base';
+  '1consistency/base',
+  '1consistency/global';
 
 // 2. Accessibility
 @import
