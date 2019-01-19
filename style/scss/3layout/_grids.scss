@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  // grid-template: 1fr / 1fr;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  // margin: 6rem 6% 6%;
+  margin-bottom: 6%;
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 6rem;
+}
