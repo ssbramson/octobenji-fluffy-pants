@@ -36,7 +36,7 @@
   
   <meta name="twitter:site" content="@ssbramson">
   <meta name="twitter:creator" content="@ssbramson">
-  <meta name="twitter:title" content="&lt;&#47;ssbramson&gt;>">
+  <meta name="twitter:title" content="&lt;&#47;ssbramson&gt;">
   <meta name="twitter:description" content="Spencer Bramson, is an award winning marketing executive specialized in consumer technology applications and packaged goods.">
   
   <title>&lt;&#47;ssbramson&gt;  |  Spencer Bramson's online portforlio</title>
@@ -48,12 +48,6 @@
   <link rel="preload" href="style/style.min.css" as="style" onload="this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="style/style.min.css"></noscript>
   
-  <script>
-    /*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
-    !function(a){"use strict";var b=function(b,c,d){function j(a){if(e.body)return a();setTimeout(function(){j(a)})}function l(){f.addEventListener&&f.removeEventListener("load",l),f.media=d||"all"}var g,e=a.document,f=e.createElement("link");if(c)g=c;else{var h=(e.body||e.getElementsByTagName("head")[0]).childNodes;g=h[h.length-1]}var i=e.styleSheets;f.rel="stylesheet",f.href=b,f.media="only x",j(function(){g.parentNode.insertBefore(f,c?g:g.nextSibling)});var k=function(a){for(var b=f.href,c=i.length;c--;)if(i[c].href===b)return a();setTimeout(function(){k(a)})};return f.addEventListener&&f.addEventListener("load",l),f.onloadcssdefined=k,k(l),f};"undefined"!=typeof exports?exports.loadCSS=b:a.loadCSS=b}("undefined"!=typeof global?global:this);
-    /*! loadCSS rel=preload polyfill. [c]2017 Filament Group, Inc. MIT License */
-    !function(a){if(a.loadCSS){var b=loadCSS.relpreload={};if(b.support=function(){try{return a.document.createElement("link").relList.supports("preload")}catch(a){return!1}},b.poly=function(){for(var b=a.document.getElementsByTagName("link"),c=0;c<b.length;c++){var d=b[c];"preload"===d.rel&&"style"===d.getAttribute("as")&&(a.loadCSS(d.href,d,d.getAttribute("media")),d.rel=null)}},!b.support()){b.poly();var c=a.setInterval(b.poly,300);a.addEventListener&&a.addEventListener("load",function(){b.poly(),a.clearInterval(c)}),a.attachEvent&&a.attachEvent("onload",function(){a.clearInterval(c)})}}}(this);
-  </script>
 
   <style>
     /* ENTER MINIFY PAGE SPECIFIC STYLING HERE */
@@ -70,51 +64,29 @@
 
   <!-- HOTJAR JS BELOW --> <!-- Hotjar Tracking Code for ssbramson.com -->
   <!--
-  <script defer>
+  <script>
     (function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};h._hjSettings={hjid:1131999,hjsv:6};a=o.getElementsByTagName('head')[0];r=o.createElement('script');r.async=1;r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;a.appendChild(r);})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
   </script>
   -->
 
   <meta name="google-site-verification" content="Jqpxe9DyYy18PD-lQnNtX-D09Ua55BMHsc7MHQErYpY" />
-
+  
 </head>
 <body>
   <noscript><p><strong>This web page requires JavaScript to be enabled.</strong></p><p>JavaScript is an object-oriented computer programming language commonly used to create interactive effects within web browsers.</p><p><a href="https://goo.gl/koeeaJ" target="_blank">How to enable JavaScript</a></p></noscript>
 
-  <main class="container">
+  <section class="container">
 
-    <section id="navigation"></section>
+    <div id="navigation"></div>
+    <div id="index"></div>
+    <div class="vertical_navigation-container" aria-label="I am availabile for work starting in February 2019."><a href="lets-collaborate.html" aria-label="Link to the contact page.">available feb. 2019</a></div>
 
-    <section class="content-container" id="index">
-      
-      <section class="index-content" aria-label="Site" role="contentinfo">
-      
-          <h1 class="index-header" aria-label="Spencer Bramson's make up is 60% Koala + 10% Discipline + 20% Nerd + 3% Failing + 7% Coloring outside the lines">🐨<sup>.65</sup> + 🥋<sup>.10</sup> + 🤓<sup>.20</sup> + 🤦‍<sup> .03</sup> + 🤪‍<sup>.07</sup></h1>
-          
-          <section class="index-introduction_paragraph-content" aria-label="Spencer Bramson's introduction">
-            <p class="index-introduction_paragraph">Award winning marketing executive specialized in consumer technology applications and packaged goods. Clientele including, but not limited to;</p>
-            
-            <!-- <ul class="index-highlighted_clients"><li class="index-highlighed_client" v-for="indexClientLink in indexClientLinks"><a class="index-hightlighted_client-link" :href="indexClientLink.linkURL">{{ indexClientLink.linkTitle }}</a></li></ul> -->
-          </section>
-          
-        </section>
-
-        
-    </section>
-
-  </main>
+  </section>
   
-
-  <!-- VENDOR JS BELOW -->
-  <script src="script/vendor.js"></script>
-
-  <!-- COMPONENT JS BELOW: NAVIGATION + PAGE SPECIFIC -->
-  <!--
-  <script src="" defer></script> 
-  -->
+  <script src="vue/global.vue"></script><!-- GLOBAL VUE BELOW -->
+  <script src="vue/content/index.vue"></script><!--  PAGE SPECIFIC VUE BELOW -->
   
-  <!-- SERVICE WORKER JS BELOW -->
-  <script>// INSERT SERVICE WORKER</script>
+  <script>// INSERT SERVICE WORKER</script><!-- SERVICE WORKER JS BELOW -->
   
   <!-- SEARCH SCHEMA JS BELOW -->
   <script type="application/ld+json">
@@ -122,11 +94,11 @@
       "@context": "http://schema.org/",
       "@type": "Person",
       "name": "Spencer S. Bramson",
-      "jobTitle": "Creativity and Marketing Executive",
-      "description": "Spencer Bramson, is an award winning marketing executive specialized in consumer technology applications and packaged goods.",
+      "jobTitle": "Marketing and Creative Executive",
+      "description": "Spencer Bramson, is an award winning marketing and creative executive specialized in consumer technology applications and packaged goods.",
       "award": "Rising Business Stars Under 30, Business Journal | Future Leaders Group, Massachusetts Innovation & Technology Exchange",
       "url": "https://www.ssbramson.com",
-      "telephone": "(425) 123-4567",
+      "telephone": "(847) 767-6191",
       "email": "iam@ssbramson.com",
       "workLocation": "New York City, NY",
       "homeLocation": "Chicago, IL",

@@ -116,3 +116,25 @@
     margin-top: 0.0rem;
   }
 }
+
+.vertical_navigation-container {
+  @media (max-width: $px-breakpoint-primary_width) {
+    font-size: 0.75rem;
+    letter-spacing: 0.1rem;
+  }
+  @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
+  
+  align-self: end;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  justify-self: end;
+  text-transform: lowercase;
+  transform: rotate(90deg) translateY(100%);
+  transform-origin: 100% 100%;
+  z-index: 9;
+}
+
+.vertical_navigation-link {
+  display: inline-flex;
+}
