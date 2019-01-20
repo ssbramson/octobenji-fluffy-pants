@@ -6,7 +6,7 @@ new Vue({
 
       <section class="index-content" aria-label="Site" role="contentinfo">
       
-        <h1 class="index-header" aria-label="Spencer Bramson's make up is 60% Koala + 10% Discipline + 20% Nerd + 3% Failing + 7% Coloring outside the lines">🐨<sup>.65</sup> + 🥋<sup>.10</sup> + 🤓<sup>.20</sup> + 🤦‍<sup> .03</sup> + 🤪‍<sup>.07</sup></h1>
+        <h1 class="index-header" aria-label="Spencer Bramson's make up is 60% Koala + 10% Discipline + 20% Nerd + 3% Failing + 7% Coloring outside the lines">🐨<sup>.60</sup> + 🥋<sup>.10</sup> + 🤓<sup>.20</sup> + 🤦‍<sup> .03</sup> + 🤪‍<sup>.07</sup></h1>
         
         <section class="index-introduction_paragraph-content" aria-label="Spencer Bramson's introduction">
           <p class="index-introduction_paragraph">Award winning marketing executive specialized in consumer technology applications and packaged goods. Clientele including, but not limited to;</p>
