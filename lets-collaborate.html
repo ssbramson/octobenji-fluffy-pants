@@ -46,86 +46,13 @@
   <!-- PRELOADS -->
   <link rel="preload" href="style/style.min.css" as="style">
   <link rel="preload" href="vue/global.vue" as="script">
-  <link rel="preload" href="vue/content/index.vue" as="script">
-
+  <link rel="preload" href="vue/content/collaborate.vue" as="script">
+  
   <!-- CSS -->
   <link rel="stylesheet" href="style/style.min.css">
   <style>
-    .index-content {
-      align-self: flex-end;
-      grid-column: 1 / 2;
-      grid-row: 1 / 2;
-      
-    }
-
-    .index-header {
-      font-weight: 300
-    }
-
-    @media (max-width: 760px) {
-      .index-header {
-        font-size: 1.5rem;
-        letter-spacing: 0.025rem;
-        line-height: 2.0;
-        margin-bottom: 1.25rem;
-        width: 80%
-      }
-    }
-
-    @media (min-width: 760px) {
-      .index-header {
-        font-size: 2.5rem
-      }
-    }
-
-    .index-header sup {
-      font-size: 50%;
-      padding-left: 0.5rem
-    }
-
-    @media (max-width: 760px) {
-      .index-introduction_paragraph-content {
-        font-size: 1.0rem;
-        line-height: 2.0;
-        max-width: 42ch
-      }
-    }
-
-    @media (min-width: 760px) {
-      .index-introduction_paragraph-content {
-        font-size: 2.0rem;
-        font-weight: 300;
-        letter-spacing: 0.1rem;
-        width: 90%
-      }
-    }
-
-    .index-introduction_paragraph,
-    .index-highlighted_clients {
-      display: inline
-    }
-
-    .index-highlighed_client {
-      display: inline-flex
-    }
-
-    .index-highlighed_client:hover {
-      color: #330064
-    }
-
-    .index-highlighed_client:after {
-      content: ",\00a0";
-      letter-spacing: 0
-    }
-
-    .index-highlighed_client:nth-last-child(2):after {
-      content: ", and\00a0"
-    }
-
-    .index-highlighed_client:last-child:after {
-      content: "."
-    }
-  </style><!-- PAGE SPECIFIC STYLING -->
+    /* ENTER MINIFY PAGE SPECIFIC STYLING HERE */
+  </style>
 
   <!-- ADD FONTS BELOW -->
   <!--
@@ -136,13 +63,12 @@
   <link rel="manifest" href="manifest.json">
   <!-- <link rel="manifest" href="site.webmanifest"> -->
 
-  <!-- HOTJAR TRACKING LINK HERE -->
-
-  <link rel="prefetch" href="vue/content/capabilities.vue" as="script">
-  <link rel="prefetch" href="vue/content/experience.vue" as="script">
-  <link rel="prefetch" href="vue/content/collaborate.vue" as="script">
-
-  <meta name="google-site-verification" content="Jqpxe9DyYy18PD-lQnNtX-D09Ua55BMHsc7MHQErYpY">
+  <!-- HOTJAR JS BELOW --> <!-- Hotjar Tracking Code for ssbramson.com -->
+  <!--
+  <script>
+    (function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};h._hjSettings={hjid:1131999,hjsv:6};a=o.getElementsByTagName('head')[0];r=o.createElement('script');r.async=1;r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;a.appendChild(r);})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
+  -->
   
 </head>
 <body>
@@ -150,34 +76,13 @@
 
   <section class="container">
     <div id="navigation"></div>
-    <div id="index"></div>
-    <div class="vertical_navigation-container" aria-label="I am availabile for work starting in February 2019."><a href="lets-collaborate.html" aria-label="Link to the contact page.">available feb. 2019</a></div>
+    <div id="collaborate"></div>
   </section>
   
   <script src="vue/global.vue"></script><!-- GLOBAL VUE -->
-  <script src="vue/content/index.vue"></script><!-- PAGE SPECIFIC CONTENT -->
+  <script src="vue/content/collaborate.vue"></script><!-- PAGE SPECIFIC CONTENT -->
   
   <script>// INSERT SERVICE WORKER</script><!-- SERVICE WORKER -->
-  
-  <script type="application/ld+json">
-    {
-      "@context": "http://schema.org/",
-      "@type": "Person",
-      "name": "Spencer S. Bramson",
-      "jobTitle": "Marketing and Creative Executive",
-      "description": "Spencer Bramson, is an award winning marketing and creative executive specialized in consumer technology applications and packaged goods.",
-      "award": "Rising Business Stars Under 30, Business Journal | Future Leaders Group, Massachusetts Innovation & Technology Exchange",
-      "url": "https://www.ssbramson.com",
-      "telephone": "(847) 767-6191",
-      "email": "iam@ssbramson.com",
-      "workLocation": "New York City, NY",
-      "homeLocation": "Chicago, IL",
-      "sameAs" : [
-        "https://www.linkedin.com/in/ssbramson/",
-        "https://www.twitter.com/ssbramson/"
-      ]
-    }
-  </script><!-- SEARCH SCHEMA -->
 
 </body>
 </html>
