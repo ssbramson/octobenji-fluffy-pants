@@ -254,3 +254,39 @@ body {
 .vertical_navigation-link {
   display: inline-flex;
 }
+
+@font-face {
+  font-family: "Josefin Sans";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Josenfin Sans Regular"), local("JosenfinSans-Regular"), url(https://fonts.gstatic.com/s/josefinsans/v12/Qw3aZQNVED7rKGKxtqIqX5EUDXx4Vn8sig.woff2) format("woff2");
+  unicode-range: U+0021-007D;
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 300;
+  src: local("Josenfin Sans Light"), local("JosenfinSans-Light"), url(https://fonts.gstatic.com/s/josefinsans/v12/Qw3FZQNVED7rKGKxtqIqX5Ecpl5te10hoJky_A.woff2) format("woff2");
+  unicode-range: U+0021-007D;
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  src: local("Josenfin Sans Bold"), local("JosenfinSans-Bold"), url(https://fonts.gstatic.com/s/josefinsans/v12/Qw3FZQNVED7rKGKxtqIqX5Ectllte10hoJky_A.woff2) format("woff2");
+  unicode-range: U+0021-007D;
+}
+
+@font-face {
+  font-family: "Josefin Sans";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  src: local("Josenfin Sans SemiBold"), local("JosenfinSans-SemiBold"), url(https://fonts.gstatic.com/s/josefinsans/v12/Qw3FZQNVED7rKGKxtqIqX5Ec0lhte10hoJky_A.woff2) format("woff2");
+  unicode-range: U+0021-007D;
+}
