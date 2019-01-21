@@ -10,6 +10,42 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Josefin Sans';
+  font-display: swap;
+  src: 
+    local('Josefin Sans'),
+    url('../assets/fonts/light/JosefinSans.woff2') format('woff2'),
+    url('../assets/fonts/light/JosefinSans.woff') format('woff');
+  font-weight: 300;
+  unicode-range: U+0021-007D;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-display: swap;
+  src: 
+    local('Josefin Sans'),
+    url('../assets/fonts/bold/JosefinSans.woff2') format('woff2'),
+    url('../assets/fonts/bold/JosefinSans.woff') format('woff');
+  font-weight: 700;
+  unicode-range: U+0021-007D;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space Mono';
+  font-display: swap;
+  src: 
+    local('Space Mono'),
+    url('../assets/fonts/regular/SpaceMono.woff2') format('woff2'),
+    url('../assets/fonts/regular/SpaceMono.woff') format('woff');
+  font-weight: 400;
+  unicode-range: U+0021-007D;
+  font-style: normal;
+}
+
 // @font-face {
 //   font-family: "Josefin Sans";
 //   font-display: swap;

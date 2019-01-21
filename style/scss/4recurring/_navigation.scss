@@ -110,6 +110,8 @@
   text-transform: uppercase;
 }
 
+// VERTICAL SIDE NAVIGATION STYLING BEGINS
+
 .vertical_navigation-container {
   @media (min-width: $px_breakpoint-primary_width) {
     font-size: 1.0rem;
@@ -117,6 +119,7 @@
   }
   
   align-self: end;
+  font-family: $font_family-retro;
   font-size: 0.75rem;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
