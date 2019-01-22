@@ -4,7 +4,13 @@ new Vue({
   template: `
     <main class="experience-container">
       <section class="experience-content">
-        <ul class="experience-highlighted_clients"><li class="experience-highlighted_client" v-for="experienceClientLink in experienceClientLinks"><a :href="experienceClientLink.linkURL" class="experience-highlighted_client-link" aria-label="Go to detail page" role="link">{{ experienceClientLink.linkTitle }}</a></li></ul>
+        <ul class="experience-highlighted_clients">
+          <li class="experience-highlighted_client" v-for="experienceClientLink in experienceClientLinks">
+            <a :href="experienceClientLink.linkURL" class="experience-highlighted_client-link" aria-label="Go to detail page" role="link">
+              {{ experienceClientLink.linkTitle }}
+            </a>
+          </li>
+        </ul>
       </section>
     </main>
   `,

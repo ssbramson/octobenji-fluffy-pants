@@ -10,9 +10,7 @@ html {
 }
 
 body {
-  font-family: $font_family-primary, $font_family-monospace, $font_family-sans_serif;
   font-size: 1rem;
-  font-weight: $font_weight-regular;
   line-height: 1.5;
 }
 
@@ -44,35 +42,6 @@ sup {
 button,
 input {
   margin: 0;
-}
-
-a,
-a:active,
-a:hover,
-a:visited {
-  background-color: transparent;
-  color: inherit;
-  text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-size: 100%;
-  font-weight: $font_weight-regular;
-}
-
-ol,
-ul {
-  list-style: none;
-}
-
-sub,
-sup {
-  font-size: 0.75rem;
 }
 
 hr {

@@ -29,8 +29,6 @@ function displayTime(hour, min, sec, day, meridiem, offset, timeId, dayId) {
     day++;
   }
 
-  
-
   /* pads integers with extra 0 for formatting */
   if (hour < 10)
     hour = "0" + hour;
