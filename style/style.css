@@ -205,6 +205,7 @@ ul {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   justify-self: end;
+  margin-top: 192px;
   text-align: right;
 }
 
@@ -221,28 +222,25 @@ ul {
   .navigation-link_item {
     font-size: 5.0rem;
     letter-spacing: 1.5rem;
-    margin-right: -1.5rem;
+    margin-right: -1.625rem;
     margin-top: 1.5rem;
   }
 }
 
 .vertical_navigation-container {
-  align-self: end;
   font-family: "Space Mono", monospace;
-  font-size: 0.75rem;
+  font-size: 0.5rem;
   grid-column: 2 / 3;
-  grid-row: 2 / 3;
+  grid-row: 3 / 4;
   justify-self: end;
   letter-spacing: 0.1rem;
   text-transform: lowercase;
-  transform: rotate(90deg) translateY(100%);
-  transform-origin: 100% 100%;
   z-index: 9;
 }
 
 @media (min-width: 724px) {
   .vertical_navigation-container {
-    font-size: 1.0rem;
+    font-size: .825rem;
     letter-spacing: 0.0rem;
   }
 }
