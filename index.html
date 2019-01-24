@@ -47,10 +47,23 @@
     .index-content {
       align-self: end;
     }
+
     sup {
       font-size: 0.75rem;
       letter-spacing: .125rem;
       margin-left: .25rem;
+    }
+
+    li::after {
+      content: ', ';
+    }
+
+    li:nth-last-child(2)::after {
+      content: ', and';
+    }
+
+    li:last-child::after {
+      content: '.';
     }
   </style><!-- PAGE SPECIFIC STYLING -->
 
