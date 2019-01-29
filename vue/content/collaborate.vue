@@ -11,7 +11,7 @@ var timerID = setInterval(function() {
   /* set dates for citiies with respect to UTC time */ 
 
   displayTime(hour, min, sec, day, "", -5, "time-nyc", "day-nyc");
-  displayTime(hour, min, sec, day, "", -8, "time-la", "day-la");
+  displayTime(hour, min, sec, day, "", -8, "time-sf", "day-sf");
 }, 1000);
 
 /*
@@ -60,49 +60,60 @@ new Vue({
   el: '#collaborate',
 
   template: `
-    <!-- <main class="collaborate-container"> -->
     <main class="content-container">
         
       <section class="collaborate-content">
 
-        <section class="collaborate-introduction-content">
-          <h2 class="collaborate-introduction_title">Collaboration is the new competition</h2>
+        <section class="collaborate-introduction-area">
 
-          <p class="collaborate-introduction_paragraph" role="text">Lorem ipsum mollitia laboriosam aper iampis icing elit. Dolor sit amet consect etur adipisicing elit. Possimus quis delectus sap iente. Nesciunt mollitia laboriosam aperiampisicing elit. Possimus quis delectus sapi ente. Nesciunt mollitia laboriosam aperiam olor sit amet volu ptate dicta cumque. volu ptate dicta cumque.</p>
+          <h1 class="collaborate-introduction-title">Collaboration is the new competition</h1>
 
-          <div class="collaborate-introduction_signature">- Spencer</div>
+          <p class="collaborate-introduction-paragraph" role="text">Behind every great consumer product, there's an even greater team of individual collaborators coming together to blend their specialties as a collective unit.</p>
 
-          <div class="collaborate-introduction_availability">available for work February 2019</div>
+          <div class="collaborate-introduction-signature">- Spencer</div>
+
+          <div class="collaborate-introduction-availability">Available to start collaborating in February 2019</div>
           
         </section>
 
-        <section class="collaborate-location-content">
+        <section class="collaborate-locations-area">
 
-          <!-- <h3 class="collaborate-location_header">Currently located</h3> -->
+          <h2 class="collaborate-locations-title">Currently located</h2>
 
-          <ul class="collaborate-location_locations">
+          <div class="collaborate-location-area">
 
-            <li class="collaborate-location_location">
-              <h4 class="collaborate-location_location-header">Los Angeles</h4>
-              <ul class="collaborate-location_location-deatils">
-                <li class="collaborate-location_location-detail_time">
-                  <i class="fal fa-clock"></i> <span id="time-la"></span>
-                </li>
-                <li class="collaborate-location_location-detail_day">
-                  <div id="day-la">SUNDAY</div>
-                </li>
+            <h3 class="collaborate-location-title">San Francisco</h3>
+
+            <div class="collaborate-location-analog_clock-area">
+            
+              <div class="collaborate-location-analog_clock">
+                <div class="collaborate-location-analog_clock_face">
+                  <div class="clock_hand clock_hand-hour"></div>
+                  <div class="clock_hand clock_hand-minute"></div>
+                  <div class="clock_hand clock_hand-second"></div>
+                </div>
+              </div>
+
+            </div>
+            
+            <div class="collaborate-location-time_day-area">
+              <div id="time-sf"></div>
+              <div id="day-sf"></div>
+            </div>
+
+
+
+              <h3 class="collaborate-location_location-header">New York City</h3>
+
+              <div class="collaborate-location-analog_clock"></div>
+              <div id="time-nyc"></div>
+              <div id="day-nyc"></div>
+          
+            
+            <!--
+            <div class="collaborate-location_location">
+              <h3 class="collaborate-location_location-header">New York City</h3>
               
-                <!--
-                <li class="collaborate-location_location-detail_email">
-                    <a href="mailto:LA@ssbramson.com" aria-label="This will send an email to LA@ssbramson.com">email</a>
-                </li>
-                -->
-              </ul>
-              
-            </li>
-
-            <li class="collaborate-location_location">
-              <h4 class="collaborate-location_location-header">New York City</h4>
               <ul class="collaborate-location_location-deatils">
                 
                 <li class="collaborate-location_location-detail_time">
@@ -114,13 +125,12 @@ new Vue({
 
               </ul>
               
-              <h4 class="collaborate-location_location-header"><a href="mailto:NYC@ssbramson.com" aria-label="This will send an email to NYC@ssbramson.com">New York City</a></h4>
-              
-            </li>
+            </div>
+            -->
 
             
 
-          </ul>
+          </div>
 
         </section>
 
