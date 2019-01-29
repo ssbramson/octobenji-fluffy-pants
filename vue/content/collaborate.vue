@@ -101,34 +101,10 @@ new Vue({
               <div id="day-sf"></div>
             </div>
 
-
-
-              <h3 class="collaborate-location_location-header">New York City</h3>
-
-              <div class="collaborate-location-analog_clock"></div>
+            <div class="collaborate-location-time_day-area">
               <div id="time-nyc"></div>
               <div id="day-nyc"></div>
-          
-            
-            <!--
-            <div class="collaborate-location_location">
-              <h3 class="collaborate-location_location-header">New York City</h3>
-              
-              <ul class="collaborate-location_location-deatils">
-                
-                <li class="collaborate-location_location-detail_time">
-                  <i class="fal fa-clock"></i> <span id="time-nyc"></span>
-                </li>
-                <li class="collaborate-location_location-detail_day">
-                  <div id="day-nyc">SUNDAY</div>
-                </li>
-
-              </ul>
-              
             </div>
-            -->
-
-            
 
           </div>
 
